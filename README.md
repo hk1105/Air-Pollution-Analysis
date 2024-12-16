@@ -1,74 +1,74 @@
-# Air-Pollution-Analysis
-This repository contains a comprehensive analysis of global air pollution using R. The analysis explores various aspects of air pollution data, including missing value handling, data visualization, and correlation analysis. The dataset used in this project is publicly available on Kaggle and must be downloaded manually due to copyright restrictions.
+# Air Pollution Analysis
 
-Features of the Analysis
+This repository provides a comprehensive analysis of global air pollution using **R**. It explores various aspects of air pollution data, such as handling missing values, data visualization, and correlation analysis. The dataset used in this project is publicly available on **Kaggle** and must be downloaded manually due to copyright restrictions.
 
-Data Loading and Preprocessing:
+---
 
-Reads the dataset from a local file after manual download.
+## 🔍 Features of the Analysis
 
-Handles missing values by filling numeric columns with their mean and non-numeric columns with their mode.
+### 📥 **Data Loading and Preprocessing:**
+- Loads the dataset from a local file (manual download required).
+- Handles missing values by:
+  - Filling **numeric** columns with their mean.
+  - Filling **non-numeric** columns with their mode.
 
-Data Exploration:
+### 📊 **Data Exploration:**
+- Displays the structure of the dataset.
+- Separates **numeric** and **non-numeric** columns for targeted analysis.
 
-Displays the structure of the dataset.
+### 📈 **Visualization:**
+- **Histograms** and **density plots** to visualize the Air Quality Index (AQI) distribution.
+- **Scatter plot** to explore the relationship between AQI and CO AQI values.
 
-Separates numeric and non-numeric columns for targeted analysis.
+### 🔗 **Correlation Analysis:**
+- Calculates the **correlation matrix** for numeric columns.
+- Visualizes the correlation matrix using a **correlation plot**.
 
-Visualization:
+---
 
-Histogram and density plots of Air Quality Index (AQI) values.
+## 📌 Prerequisites
 
-Scatter plot to explore the relationship between AQI and CO AQI values.
+Ensure that **R** is installed on your system. The following R packages are required:
 
-Correlation Analysis:
-
-Calculates the correlation matrix for numeric columns.
-
-Visualizes the correlation matrix using a correlation plot.
-
-Prerequisites
-
-Ensure that R is installed on your system. The following R packages are required:
-
-tidyverse
-
-ggplot2
-
-readr
-
-corrplot
+- `tidyverse`
+- `ggplot2`
+- `readr`
+- `corrplot`
 
 You can install these packages using the following command in R:
 
+```R
 install.packages(c("tidyverse", "ggplot2", "readr", "corrplot"))
+```
 
-Dataset
+## 📂 Dataset
+The dataset is available on Kaggle: Global Air Pollution Dataset.
 
-The dataset is available on Kaggle:Global Air Pollution Dataset.
+## 📥 How to Download:
+Manually download the dataset from Kaggle.
 
-You must manually download the dataset and place it in the same directory as the R script. Save it as global_air_pollution_dataset.csv
+Save the dataset as global_air_pollution_dataset.csv in the same directory as the R script.
 
-Results
+## 📝 Results
+- Missing values in the dataset are handled effectively.
 
-Missing values in the dataset are effectively handled.
+- AQI distribution is visualized using histograms and density plots.
 
-The AQI distribution is visualized using histograms and density plots.
+- The relationship between AQI and CO AQI values is illustrated with scatter plots.
 
-The relationship between AQI and CO AQI values is illustrated using scatter plots.
+- A detailed correlation matrix highlights the relationships between numeric variables.
 
-A detailed correlation matrix is provided for numeric columns, highlighting relationships between variables.
-
-How to Use
-
+## ⚙️ How to Use
 Download the dataset from Kaggle: Global Air Pollution Dataset.
 
 Save the dataset as global_air_pollution_dataset.csv in the same directory as the R script.
 
-Clone the repository:
-
-git clone https://github.com/hk1105/https://github.com/hk1105/Air-Pollution-Analysis-name.git
-
+## Clone the repository:
+```
+git clone https://github.com/hk1105/Air-Pollution-Analysis-name.git
+```
 Open the R script in RStudio.
 
 Run the script to reproduce the analysis.
+
+_Enjoy exploring global air pollution trends with this analysis!_
