@@ -65,7 +65,7 @@ Save the dataset as global_air_pollution_dataset.csv in the same directory as th
 
 ## Clone the repository:
 ```
-git clone https://github.com/hk1105/Air-Pollution-Analysis-name.git
+git clone https://github.com/hk1105/Air-Pollution-Analysis.git
 ```
 Open the R script in RStudio.
 
